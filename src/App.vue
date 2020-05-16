@@ -5,7 +5,7 @@
         <input 
           v-model="query"
           @keypress='fetchWeather'
-        type="text" class="search-bar" placeholder="search...">
+        type="text" class="search-bar" placeholder="type in your location to obtain the weather report ...">
       </div>
 
       <div class="weather-wrap" v-if="typeof weather.main != 'undefined'">
